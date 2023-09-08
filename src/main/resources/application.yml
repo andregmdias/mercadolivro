@@ -1,0 +1,12 @@
+spring:
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+  datasource:
+      url: jdbc:postgresql://localhost:5432/mercadolivro
+      username: postgres
+      password: postgres
+      driver-class-name: org.postgresql.Driver
+  jackson:
+    default-property-inclusion: non_null
